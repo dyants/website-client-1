@@ -354,3 +354,42 @@ nav.scrolled {
   transform: translateY(-3px);
   box-shadow: var(--shadow-xl);
 }
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-visual {
+  position: relative;
+  animation: slideInRight 0.8s 0.3s ease-out backwards;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow-xl);
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+}
+
+.hero-card-title {
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.software-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
